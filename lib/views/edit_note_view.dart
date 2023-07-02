@@ -36,10 +36,11 @@ class EditNoteApp extends StatelessWidget {
                 ),
               ),
               const CustomTextFormFeild(hintText: "Title"),
-            const SizedBox( 
-              height: 20,
-            ),
-            const CustomTextFormFeild(hintText: "Content", contentPadding: 60),
+              const SizedBox(
+                height: 20,
+              ),
+              const CustomTextFormFeild(
+                  hintText: "Content", contentPadding: 60),
             ],
           ),
         ),
